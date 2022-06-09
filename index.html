@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script id="GGT" src ="GGT.js">
+    </script>
+    <script>
+        function f(){
+            let a = parseInt(document.getElementById('erste Zahl'));
+            let b = parseInt(document.getElementById('zweite Zahl'));
+            ggtrechner(a, b);
+
+            document.getElementById("a").innerHTML = "4";
+        }
+    </script>
+    <title>GGT Calculater </title>
+</head>
+<body>
+<h1 id="intro">Größer gemeinsamer Teiler berechnen</h1>
+<p>Bitte geben Sie die Zahlen ein!
+</p>
+<input type = "number" id="erste Zahl">
+<input type = "number" id="zweite Zahl">
+    <p>
+        <button id = "button"; onclick="f()">Berechnen</button>
+    </p>
+<p id = "a">
+    Ergebnis:
+
+</p>
+
+</body>
+</html>
